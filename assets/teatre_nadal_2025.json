@@ -1,0 +1,429 @@
+{
+    "version": 1,
+    "show": "El Teatre de Nadal",
+    "songs": [
+        {
+            "id": "song_01",
+            "title": "01. apertura narrador",
+            "artist": "Nacho",
+            "durationMs": 107000,
+            "flags": [
+                "Closed Curtain",
+                "!!NO FOG"
+            ],
+            "notes": "!!Leave a bit of light behind the curtain",
+            "cues": [
+                {
+                    "timeMs": 102000,
+                    "label": "BLACKOUT",
+                    "comment": "Prepare for black theatre"
+                }
+            ]
+        },
+        {
+            "id": "song_02",
+            "title": "02. apertura black theatre",
+            "artist": "Black Theater",
+            "durationMs": 232000,
+            "flags": [
+                "UV Lights",
+                "!!NO FOG"
+            ],
+            "notes": "",
+            "cues": [
+                {
+                    "timeMs": 0,
+                    "label": "BLACKOUT",
+                    "comment": "Curtain Opens"
+                },
+                {
+                    "timeMs": 212000,
+                    "label": "Keep BLACKOUT",
+                    "comment": "Curain Closes, leave light behind"
+                }
+            ]
+        },
+        {
+            "id": "song_03",
+            "title": "03. narrador antes de dulce navidad",
+            "artist": "Nacho",
+            "durationMs": 82000,
+            "flags": [
+                "Closed Curtain"
+            ],
+            "notes": "!!Leave a bit of light behind the curtain",
+            "cues": [
+                {
+                    "timeMs": 0,
+                    "label": "Front light",
+                    "comment": "People talking in front of closed curtain"
+                }
+            ]
+        },
+        {
+            "id": "song_04",
+            "title": "04. dulce navidad y reina",
+            "artist": "Grupo 1 & 2",
+            "durationMs": 415000,
+            "flags": [],
+            "notes": "",
+            "cues": [
+                {
+                    "timeMs": 0,
+                    "label": "A bit of light",
+                    "comment": "To see trees with lights"
+                },
+                {
+                    "timeMs": 20000,
+                    "label": "Add more light",
+                    "comment": "Any light, GREEN and RED mostly"
+                }
+            ]
+        },
+        {
+            "id": "song_05",
+            "title": "05. dialogo 1",
+            "artist": "Moms & Kids",
+            "durationMs": 100000,
+            "flags": [],
+            "notes": "",
+            "cues": [
+                {
+                    "timeMs": 0,
+                    "label": "Focus on talking people",
+                    "comment": "Less light on others"
+                }
+            ]
+        },
+        {
+            "id": "song_06",
+            "title": "06. jingle bells",
+            "artist": "Las DIVAS",
+            "durationMs": 167000,
+            "flags": [],
+            "notes": "",
+            "cues": [
+                {
+                    "timeMs": 0,
+                    "label": "CHASE",
+                    "comment": "Lots of colors and flashing"
+                },
+                {
+                    "timeMs": 57000,
+                    "label": "Focus on Jelle + Simonetta",
+                    "comment": "Less light on others"
+                },
+                {
+                    "timeMs": 67000,
+                    "label": "A LOT of light, CHASE",
+                    "comment": "Full energy"
+                }
+            ]
+        },
+        {
+            "id": "song_07",
+            "title": "07. dialogo 2",
+            "artist": "Moms & Kids",
+            "durationMs": 70000,
+            "flags": [],
+            "notes": "",
+            "cues": [
+                {
+                    "timeMs": 0,
+                    "label": "Focus on talking people",
+                    "comment": "Less light on others"
+                }
+            ]
+        },
+        {
+            "id": "song_08",
+            "title": "08. Golden",
+            "artist": "Grupo 3",
+            "durationMs": 192000,
+            "flags": [],
+            "notes": "",
+            "cues": [
+                {
+                    "timeMs": 0,
+                    "label": "CHASE with strobo",
+                    "comment": "Full energy, lots of colors"
+                },
+                {
+                    "timeMs": 185000,
+                    "label": "Start dimming lights to 0",
+                    "comment": "After ppl clapping"
+                }
+            ]
+        },
+        {
+            "id": "song_09",
+            "title": "09. Estatuas",
+            "artist": "Grupo 3 & Powerup",
+            "durationMs": 266000,
+            "flags": [
+                "!!TIME SENSITIVE"
+            ],
+            "notes": "",
+            "cues": [
+                {
+                    "timeMs": 0,
+                    "label": "BLACKOUT",
+                    "comment": "NOTHING, complete darkness"
+                },
+                {
+                    "timeMs": 138000,
+                    "label": "SPOT 1 + 2",
+                    "comment": ""
+                },
+                {
+                    "timeMs": 150000,
+                    "label": "SPOT 3, 4, 5",
+                    "comment": "Spots 1 + 2 off"
+                },
+                {
+                    "timeMs": 155000,
+                    "label": "BLACKOUT",
+                    "comment": "They're getting into position"
+                },
+                {
+                    "timeMs": 161000,
+                    "label": "Full light CHASE",
+                    "comment": "Strobe, whatever"
+                }
+            ]
+        },
+        {
+            "id": "song_10",
+            "title": "10. dialogo con estatuas",
+            "artist": "Kids + Powerup",
+            "durationMs": 110000,
+            "flags": [],
+            "notes": "",
+            "cues": [
+                {
+                    "timeMs": 0,
+                    "label": "Light on talking people",
+                    "comment": "Less light on others"
+                },
+                {
+                    "timeMs": 85000,
+                    "label": "BLACKOUT",
+                    "comment": "They walk off the stage"
+                }
+            ]
+        },
+        {
+            "id": "song_11",
+            "title": "11. Le Valse d'Amour",
+            "artist": "Grupo 2",
+            "durationMs": 154000,
+            "flags": [],
+            "notes": "Softer light, romantic",
+            "cues": [
+                {
+                    "timeMs": 0,
+                    "label": "Slower CHASE, soft colors",
+                    "comment": "Maybe pink-ish"
+                }
+            ]
+        },
+        {
+            "id": "song_12",
+            "title": "12. dialogo con oso",
+            "artist": "Grupo 2",
+            "durationMs": 46000,
+            "flags": [
+                "NO complete darkness"
+            ],
+            "notes": "Fixed light mostly",
+            "cues": [
+                {
+                    "timeMs": 0,
+                    "label": "Fix more on talking people",
+                    "comment": "Warm light"
+                },
+                {
+                    "timeMs": 30000,
+                    "label": "Lower light",
+                    "comment": "Do NOT blackout, just lower"
+                }
+            ]
+        },
+        {
+            "id": "song_13",
+            "title": "13. Delibes - Coppelia",
+            "artist": "Grupo 1 + Ositos",
+            "durationMs": 147000,
+            "flags": [],
+            "notes": "",
+            "cues": [
+                {
+                    "timeMs": 0,
+                    "label": "Lots of light, CHASE",
+                    "comment": "Playful colors"
+                },
+                {
+                    "timeMs": 120000,
+                    "label": "Focus on Jelle & Simonetta",
+                    "comment": "Dramatic, strobe"
+                }
+            ]
+        },
+        {
+            "id": "song_14",
+            "title": "14. Animales pain",
+            "artist": "Grupo 3 + Roman",
+            "durationMs": 186000,
+            "flags": [
+                "!!TIME SENSITIVE"
+            ],
+            "notes": "POI Lights",
+            "cues": [
+                {
+                    "timeMs": 0,
+                    "label": "No front light, FLASH",
+                    "comment": "Dramatic"
+                },
+                {
+                    "timeMs": 46000,
+                    "label": "Sad, BLUE light",
+                    "comment": ""
+                },
+                {
+                    "timeMs": 76000,
+                    "label": "BLACKOUT",
+                    "comment": "POI Roman"
+                },
+                {
+                    "timeMs": 91000,
+                    "label": "Full lights",
+                    "comment": ""
+                },
+                {
+                    "timeMs": 138000,
+                    "label": "BLACKOUT",
+                    "comment": "POI Roman"
+                },
+                {
+                    "timeMs": 153000,
+                    "label": "Full lights",
+                    "comment": ""
+                },
+                {
+                    "timeMs": 182000,
+                    "label": "Dim lights",
+                    "comment": "Blackout start of next song"
+                }
+            ]
+        },
+        {
+            "id": "song_15",
+            "title": "15. dialogo con oso2",
+            "artist": "Grupo 2",
+            "durationMs": 81000,
+            "flags": [],
+            "notes": "",
+            "cues": [
+                {
+                    "timeMs": 0,
+                    "label": "BLACKOUT",
+                    "comment": "No light"
+                },
+                {
+                    "timeMs": 12000,
+                    "label": "Light on talking people",
+                    "comment": ""
+                }
+            ]
+        },
+        {
+            "id": "song_16",
+            "title": "16. Azafatas",
+            "artist": "Dancing Queens + Ositos",
+            "durationMs": 195000,
+            "flags": [
+                "Next song MICs ON"
+            ],
+            "notes": "Just fun light",
+            "cues": [
+                {
+                    "timeMs": 0,
+                    "label": "CHASE and fast lights, colors",
+                    "comment": "Full energy"
+                }
+            ]
+        },
+        {
+            "id": "song_17",
+            "title": "17. dialogo en vivo",
+            "artist": "",
+            "durationMs": 182000,
+            "flags": [
+                "!!MICROPHONES",
+                "!!LIVE DIALOGUE",
+                "!!SKIP AT END"
+            ],
+            "notes": "!!SKIP after calling bear 3 times",
+            "cues": [
+                {
+                    "timeMs": 0,
+                    "label": "A bit of CHASE",
+                    "comment": "Cheerful light"
+                }
+            ]
+        },
+        {
+            "id": "song_18",
+            "title": "18. All I want for christmas",
+            "artist": "Everyone",
+            "durationMs": 220000,
+            "flags": [],
+            "notes": "",
+            "cues": [
+                {
+                    "timeMs": 0,
+                    "label": "CHASE and fast lights, colors",
+                    "comment": "Full energy"
+                }
+            ]
+        },
+        {
+            "id": "song_19",
+            "title": "19. Moraleja",
+            "artist": "Nacho",
+            "durationMs": 132000,
+            "flags": [
+                "!!BLACKOUT",
+                "UV Lights"
+            ],
+            "notes": "",
+            "cues": [
+                {
+                    "timeMs": 0,
+                    "label": "BLACKOUT",
+                    "comment": "There will be lights in costumes"
+                }
+            ]
+        },
+        {
+            "id": "song_20",
+            "title": "20. Presentacion de los artistas",
+            "artist": "Everyone",
+            "durationMs": 220000,
+            "flags": [],
+            "notes": "!!Prepare to play All I want for Christmas",
+            "cues": [
+                {
+                    "timeMs": 0,
+                    "label": "BLACKOUT",
+                    "comment": "There will be lights in costumes"
+                },
+                {
+                    "timeMs": 131000,
+                    "label": "Stop music, people will talk",
+                    "comment": "After they say Merry Christmas, play 'All I want for Christmas' again"
+                }
+            ]
+        }
+    ]
+}

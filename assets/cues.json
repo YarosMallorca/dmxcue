@@ -1,427 +1,706 @@
 {
     "version": 1,
-    "show": "El Teatre de Nadal",
+    "show": "Sa Font",
     "songs": [
         {
             "id": "song_01",
-            "title": "01. apertura narrador",
-            "artist": "Nacho",
-            "durationMs": 107000,
+            "title": "01. Narrador",
+            "artist": "Narrador",
+            "durationMs": 52000,
             "flags": [
                 "Closed Curtain",
-                "!!NO FOG"
+                "!!NEON OFF"
             ],
-            "notes": "!!Leave a bit of light behind the curtain",
+            "notes": "!!Small light behind curtain for positioning",
             "cues": [
                 {
-                    "timeMs": 102000,
-                    "label": "BLACKOUT",
+                    "timeMs": 0,
+                    "label": "Darkness - Closed Curtain",
+                    "comment": "Small light behind curtain to position"
+                },
+                {
+                    "timeMs": 45000,
+                    "label": "BLACKOUT + NEON ON",
                     "comment": "Prepare for black theatre"
                 }
             ]
         },
         {
             "id": "song_02",
-            "title": "02. apertura black theatre",
-            "artist": "Black Theater",
-            "durationMs": 232000,
+            "title": "02. Teatro Negro",
+            "artist": "Dancing Queens + Grupo 3",
+            "durationMs": 289000,
             "flags": [
-                "UV Lights",
-                "!!NO FOG"
+                "NEON ON",
+                "!!NO FRONT LIGHT"
             ],
             "notes": "",
             "cues": [
                 {
                     "timeMs": 0,
-                    "label": "BLACKOUT",
-                    "comment": "Curtain Opens"
-                },
-                {
-                    "timeMs": 212000,
-                    "label": "Keep BLACKOUT",
-                    "comment": "Curain Closes, leave light behind"
+                    "label": "BLACKOUT + NEON ON",
+                    "comment": "Curtain opens"
                 }
             ]
         },
         {
             "id": "song_03",
-            "title": "03. narrador antes de dulce navidad",
-            "artist": "Nacho",
-            "durationMs": 82000,
+            "title": "03. Nena Sofa",
+            "artist": "Nena",
+            "durationMs": 80000,
             "flags": [
-                "Closed Curtain"
+                "NEON ON"
             ],
-            "notes": "!!Leave a bit of light behind the curtain",
+            "notes": "",
             "cues": [
                 {
                     "timeMs": 0,
-                    "label": "Front light",
-                    "comment": "People talking in front of closed curtain"
+                    "label": "BLACKOUT - Solo SPOT-1",
+                    "comment": "Spotlight on sofa with niña"
+                },
+                {
+                    "timeMs": 32000,
+                    "label": "Soft full-stage light",
+                    "comment": "Niña moves to window"
+                },
+                {
+                    "timeMs": 53000,
+                    "label": "Fade to SPOT-3 only",
+                    "comment": "Focus on window with niña"
+                },
+                {
+                    "timeMs": 65000,
+                    "label": "Fade SPOT-3 out",
+                    "comment": ""
+                },
+                {
+                    "timeMs": 70000,
+                    "label": "Total darkness - NEON OFF",
+                    "comment": ""
+                },
+                {
+                    "timeMs": 80000,
+                    "label": "Add SMOKE",
+                    "comment": "Transition to next scene"
                 }
             ]
         },
         {
             "id": "song_04",
-            "title": "04. dulce navidad y reina",
-            "artist": "Grupo 1 & 2",
-            "durationMs": 415000,
-            "flags": [],
-            "notes": "",
+            "title": "04. Power Up (Rosalia)",
+            "artist": "Power Up",
+            "durationMs": 137000,
+            "flags": [
+                "NEON ON",
+                "HUMO"
+            ],
+            "notes": "Smoke at start",
             "cues": [
                 {
                     "timeMs": 0,
-                    "label": "A bit of light",
-                    "comment": "To see trees with lights"
+                    "label": "STROBO + Chaotic light",
+                    "comment": "Rushing city effect, stress"
                 },
                 {
-                    "timeMs": 20000,
-                    "label": "Add more light",
-                    "comment": "Any light, GREEN and RED mostly"
+                    "timeMs": 34000,
+                    "label": "SPOT-2 center + RED STROBO",
+                    "comment": ""
+                },
+                {
+                    "timeMs": 44000,
+                    "label": "CHASE según ritmo",
+                    "comment": ""
+                },
+                {
+                    "timeMs": 130000,
+                    "label": "Focus final pose + STROBO",
+                    "comment": ""
                 }
             ]
         },
         {
             "id": "song_05",
-            "title": "05. dialogo 1",
-            "artist": "Moms & Kids",
-            "durationMs": 100000,
-            "flags": [],
-            "notes": "",
+            "title": "05. Dialogo con Compi",
+            "artist": "Nena + Compi",
+            "durationMs": 127000,
+            "flags": [
+                "NEON ON",
+                "Closed Curtain"
+            ],
+            "notes": "Robot speaks → RED CHASE; Niña speaks → fixed light",
             "cues": [
                 {
                     "timeMs": 0,
-                    "label": "Focus on talking people",
-                    "comment": "Less light on others"
+                    "label": "Fade out (curtain closes)",
+                    "comment": ""
+                },
+                {
+                    "timeMs": 8000,
+                    "label": "Strong light front + soft behind curtain",
+                    "comment": "Barbies positioning behind curtain"
+                },
+                {
+                    "timeMs": 20000,
+                    "label": "RED CHASE - Robot",
+                    "comment": ""
+                },
+                {
+                    "timeMs": 29000,
+                    "label": "Fixed light on niña",
+                    "comment": ""
+                },
+                {
+                    "timeMs": 32000,
+                    "label": "RED CHASE - Robot",
+                    "comment": ""
+                },
+                {
+                    "timeMs": 40000,
+                    "label": "Fixed light on niña",
+                    "comment": ""
+                },
+                {
+                    "timeMs": 47000,
+                    "label": "RED CHASE - Robot",
+                    "comment": ""
+                },
+                {
+                    "timeMs": 66000,
+                    "label": "Fixed light on niña",
+                    "comment": ""
+                },
+                {
+                    "timeMs": 75000,
+                    "label": "RED CHASE - Robot",
+                    "comment": ""
+                },
+                {
+                    "timeMs": 85000,
+                    "label": "Fixed light on niña",
+                    "comment": ""
+                },
+                {
+                    "timeMs": 97000,
+                    "label": "RED CHASE - Robot",
+                    "comment": ""
+                },
+                {
+                    "timeMs": 116000,
+                    "label": "Fixed light on niña",
+                    "comment": ""
+                },
+                {
+                    "timeMs": 120000,
+                    "label": "CHASE + STROBO",
+                    "comment": ""
                 }
             ]
         },
         {
             "id": "song_06",
-            "title": "06. jingle bells",
-            "artist": "Las DIVAS",
-            "durationMs": 167000,
-            "flags": [],
+            "title": "06. Barbie & Ken",
+            "artist": "Grupo 1",
+            "durationMs": 191000,
+            "flags": [
+                "NEON ON"
+            ],
             "notes": "",
             "cues": [
                 {
                     "timeMs": 0,
-                    "label": "CHASE",
-                    "comment": "Lots of colors and flashing"
+                    "label": "Open curtain - PINK light",
+                    "comment": ""
                 },
                 {
-                    "timeMs": 57000,
-                    "label": "Focus on Jelle + Simonetta",
-                    "comment": "Less light on others"
-                },
-                {
-                    "timeMs": 67000,
-                    "label": "A LOT of light, CHASE",
-                    "comment": "Full energy"
+                    "timeMs": 7000,
+                    "label": "PINK CHASE según ritmo",
+                    "comment": "Full song"
                 }
             ]
         },
         {
             "id": "song_07",
-            "title": "07. dialogo 2",
-            "artist": "Moms & Kids",
-            "durationMs": 70000,
-            "flags": [],
-            "notes": "",
+            "title": "07. Happy Birthday (Low Low)",
+            "artist": "Grupo 2",
+            "durationMs": 243000,
+            "flags": [
+                "NEON ON",
+                "!!APAGAR NEON al final"
+            ],
+            "notes": "Robot speaks → RED CHASE; Niña speaks → fixed light",
             "cues": [
                 {
                     "timeMs": 0,
-                    "label": "Focus on talking people",
-                    "comment": "Less light on others"
+                    "label": "RED CHASE - Robot",
+                    "comment": ""
+                },
+                {
+                    "timeMs": 12000,
+                    "label": "Fixed light on niña",
+                    "comment": ""
+                },
+                {
+                    "timeMs": 16000,
+                    "label": "RED CHASE - Robot",
+                    "comment": ""
+                },
+                {
+                    "timeMs": 26000,
+                    "label": "Fixed light on niña",
+                    "comment": ""
+                },
+                {
+                    "timeMs": 28000,
+                    "label": "RED CHASE - Robot",
+                    "comment": ""
+                },
+                {
+                    "timeMs": 45000,
+                    "label": "Happy CHASE - baile begins",
+                    "comment": ""
+                },
+                {
+                    "timeMs": 160000,
+                    "label": "Fixed light - NO CHASE",
+                    "comment": "Acrobatic tricks - no flicker to avoid dizziness"
+                },
+                {
+                    "timeMs": 220000,
+                    "label": "Happy CHASE - resumes",
+                    "comment": ""
+                },
+                {
+                    "timeMs": 240000,
+                    "label": "APAGAR NEON",
+                    "comment": "End of dance"
                 }
             ]
         },
         {
             "id": "song_08",
-            "title": "08. Golden",
-            "artist": "Grupo 3",
-            "durationMs": 192000,
-            "flags": [],
-            "notes": "",
+            "title": "08. Burlesque (Lady Marmalade)",
+            "artist": "Les Dives",
+            "durationMs": 270000,
+            "flags": [
+                "NEON ON"
+            ],
+            "notes": "!!Encender NEON antes del baile",
             "cues": [
                 {
                     "timeMs": 0,
-                    "label": "CHASE with strobo",
-                    "comment": "Full energy, lots of colors"
+                    "label": "Full light",
+                    "comment": ""
                 },
                 {
-                    "timeMs": 185000,
-                    "label": "Start dimming lights to 0",
-                    "comment": "After ppl clapping"
+                    "timeMs": 3000,
+                    "label": "CHASE SPOT-2 - Robot",
+                    "comment": ""
+                },
+                {
+                    "timeMs": 9000,
+                    "label": "SPOT-2 center - niña",
+                    "comment": ""
+                },
+                {
+                    "timeMs": 17000,
+                    "label": "CHASE SPOT-2 - Robot",
+                    "comment": ""
+                },
+                {
+                    "timeMs": 26000,
+                    "label": "SPOT-2 center - niña",
+                    "comment": ""
+                },
+                {
+                    "timeMs": 34000,
+                    "label": "CHASE SPOT-2 - Robot",
+                    "comment": ""
+                },
+                {
+                    "timeMs": 43000,
+                    "label": "PINK CHASE - Full energy",
+                    "comment": "Full song from here"
                 }
             ]
         },
         {
             "id": "song_09",
-            "title": "09. Estatuas",
-            "artist": "Grupo 3 & Powerup",
-            "durationMs": 266000,
+            "title": "09. Earth Song",
+            "artist": "Grupo 3",
+            "durationMs": 316000,
             "flags": [
-                "!!TIME SENSITIVE"
+                "NEON ON",
+                "HUMO"
             ],
             "notes": "",
             "cues": [
                 {
                     "timeMs": 0,
-                    "label": "BLACKOUT",
-                    "comment": "NOTHING, complete darkness"
-                },
-                {
-                    "timeMs": 138000,
-                    "label": "SPOT 1 + 2",
+                    "label": "Full light",
                     "comment": ""
                 },
                 {
-                    "timeMs": 150000,
-                    "label": "SPOT 3, 4, 5",
-                    "comment": "Spots 1 + 2 off"
+                    "timeMs": 10000,
+                    "label": "CHASE - Robot",
+                    "comment": ""
                 },
                 {
-                    "timeMs": 155000,
+                    "timeMs": 20000,
+                    "label": "Full light",
+                    "comment": ""
+                },
+                {
+                    "timeMs": 35000,
+                    "label": "CHASE - Robot (RED on ERROR)",
+                    "comment": ""
+                },
+                {
+                    "timeMs": 55000,
+                    "label": "Full light",
+                    "comment": ""
+                },
+                {
+                    "timeMs": 65000,
                     "label": "BLACKOUT",
-                    "comment": "They're getting into position"
+                    "comment": ""
                 },
                 {
-                    "timeMs": 161000,
-                    "label": "Full light CHASE",
-                    "comment": "Strobe, whatever"
+                    "timeMs": 81000,
+                    "label": "BLUE light + HUMO + NEON",
+                    "comment": "Full dance - SPOT-3 on Earth at end"
                 }
             ]
         },
         {
             "id": "song_10",
-            "title": "10. dialogo con estatuas",
-            "artist": "Kids + Powerup",
-            "durationMs": 110000,
-            "flags": [],
+            "title": "10. Robot Boys",
+            "artist": "Robot Team",
+            "durationMs": 236000,
+            "flags": [
+                "NEON ON",
+                "HUMO"
+            ],
             "notes": "",
             "cues": [
                 {
                     "timeMs": 0,
-                    "label": "Light on talking people",
-                    "comment": "Less light on others"
+                    "label": "Dim light - SPOT-2 on niñas",
+                    "comment": ""
                 },
                 {
-                    "timeMs": 85000,
-                    "label": "BLACKOUT",
-                    "comment": "They walk off the stage"
+                    "timeMs": 10000,
+                    "label": "CHASE - Robot",
+                    "comment": ""
+                },
+                {
+                    "timeMs": 20000,
+                    "label": "SPOT-2 on niñas",
+                    "comment": ""
+                },
+                {
+                    "timeMs": 25000,
+                    "label": "CHASE - Robot",
+                    "comment": ""
+                },
+                {
+                    "timeMs": 38000,
+                    "label": "Mystery light + running heads + HUMO",
+                    "comment": ""
+                },
+                {
+                    "timeMs": 80000,
+                    "label": "Happy CHASE - baile",
+                    "comment": ""
                 }
             ]
         },
         {
             "id": "song_11",
-            "title": "11. Le Valse d'Amour",
-            "artist": "Grupo 2",
-            "durationMs": 154000,
-            "flags": [],
-            "notes": "Softer light, romantic",
+            "title": "11. Born This Way",
+            "artist": "Dancing Queens",
+            "durationMs": 293000,
+            "flags": [
+                "NEON ON"
+            ],
+            "notes": "",
             "cues": [
                 {
                     "timeMs": 0,
-                    "label": "Slower CHASE, soft colors",
-                    "comment": "Maybe pink-ish"
+                    "label": "Full light + STROBO",
+                    "comment": "Robots leave"
+                },
+                {
+                    "timeMs": 10000,
+                    "label": "SPOT-2 center - Roman & niña",
+                    "comment": ""
+                },
+                {
+                    "timeMs": 50000,
+                    "label": "Happy CHASE - baile",
+                    "comment": ""
                 }
             ]
         },
         {
             "id": "song_12",
-            "title": "12. dialogo con oso",
-            "artist": "Grupo 2",
-            "durationMs": 46000,
+            "title": "12. Bang Bang",
+            "artist": "Grupo 3",
+            "durationMs": 240000,
             "flags": [
-                "NO complete darkness"
+                "NEON ON",
+                "!!APAGAR NEON al final"
             ],
-            "notes": "Fixed light mostly",
+            "notes": "",
             "cues": [
                 {
                     "timeMs": 0,
-                    "label": "Fix more on talking people",
-                    "comment": "Warm light"
+                    "label": "SPOT-2 center - focus on niñas",
+                    "comment": ""
                 },
                 {
-                    "timeMs": 30000,
-                    "label": "Lower light",
-                    "comment": "Do NOT blackout, just lower"
+                    "timeMs": 68000,
+                    "label": "Happy BLUE CHASE + NEON",
+                    "comment": "Baile begins"
+                },
+                {
+                    "timeMs": 240000,
+                    "label": "APAGAR NEON",
+                    "comment": "End of dance"
                 }
             ]
         },
         {
             "id": "song_13",
-            "title": "13. Delibes - Coppelia",
-            "artist": "Grupo 1 + Ositos",
-            "durationMs": 147000,
-            "flags": [],
-            "notes": "",
+            "title": "13. Tango",
+            "artist": "Todos Adultos",
+            "durationMs": 301000,
+            "flags": [
+                "NEON ON",
+                "!!TIME SENSITIVE",
+                "!!BLACKOUT at 1:11"
+            ],
+            "notes": "!!Encender NEON antes del baile. Robot speaks → RED CHASE",
             "cues": [
                 {
                     "timeMs": 0,
-                    "label": "Lots of light, CHASE",
-                    "comment": "Playful colors"
+                    "label": "SPOT-2 center - focus on niños",
+                    "comment": ""
                 },
                 {
-                    "timeMs": 120000,
-                    "label": "Focus on Jelle & Simonetta",
-                    "comment": "Dramatic, strobe"
+                    "timeMs": 30000,
+                    "label": "RED CHASE - Robot",
+                    "comment": ""
+                },
+                {
+                    "timeMs": 40000,
+                    "label": "SPOT-2 center",
+                    "comment": ""
+                },
+                {
+                    "timeMs": 46000,
+                    "label": "RED CHASE - Robot",
+                    "comment": ""
+                },
+                {
+                    "timeMs": 59000,
+                    "label": "SPOT-2 center",
+                    "comment": ""
+                },
+                {
+                    "timeMs": 67000,
+                    "label": "RED CHASE - Robot",
+                    "comment": ""
+                },
+                {
+                    "timeMs": 71000,
+                    "label": "BLACKOUT TOTAL - NEON OFF",
+                    "comment": "!!PRECISE TIMING"
+                },
+                {
+                    "timeMs": 85000,
+                    "label": "Fade in mystery light + NEON ON + HUMO",
+                    "comment": ""
+                },
+                {
+                    "timeMs": 106000,
+                    "label": "Full CHASE - baile",
+                    "comment": ""
                 }
             ]
         },
         {
             "id": "song_14",
-            "title": "14. Animales pain",
-            "artist": "Grupo 3 + Roman",
-            "durationMs": 186000,
+            "title": "14. Libros",
+            "artist": "Grupo 2",
+            "durationMs": 162000,
             "flags": [
-                "!!TIME SENSITIVE"
+                "NEON ON"
             ],
-            "notes": "POI Lights",
+            "notes": "",
             "cues": [
                 {
                     "timeMs": 0,
-                    "label": "No front light, FLASH",
-                    "comment": "Dramatic"
-                },
-                {
-                    "timeMs": 46000,
-                    "label": "Sad, BLUE light",
-                    "comment": ""
-                },
-                {
-                    "timeMs": 76000,
-                    "label": "BLACKOUT",
-                    "comment": "POI Roman"
-                },
-                {
-                    "timeMs": 91000,
-                    "label": "Full lights",
-                    "comment": ""
-                },
-                {
-                    "timeMs": 138000,
-                    "label": "BLACKOUT",
-                    "comment": "POI Roman"
-                },
-                {
-                    "timeMs": 153000,
-                    "label": "Full lights",
-                    "comment": ""
-                },
-                {
-                    "timeMs": 182000,
-                    "label": "Dim lights",
-                    "comment": "Blackout start of next song"
+                    "label": "Happy PINK CHASE",
+                    "comment": "Full song"
                 }
             ]
         },
         {
             "id": "song_15",
-            "title": "15. dialogo con oso2",
-            "artist": "Grupo 2",
-            "durationMs": 81000,
-            "flags": [],
-            "notes": "",
+            "title": "15. Fuente",
+            "artist": "Adultos + Grupo 1 + Grupo 3",
+            "durationMs": 335000,
+            "flags": [
+                "NEON ON",
+                "HUMO",
+                "!!BLACKOUT TOTAL at 5:05"
+            ],
+            "notes": "!!APAGAR NEON at 5:05",
             "cues": [
                 {
                     "timeMs": 0,
-                    "label": "BLACKOUT",
-                    "comment": "No light"
+                    "label": "Full light on niñas",
+                    "comment": ""
                 },
                 {
-                    "timeMs": 12000,
-                    "label": "Light on talking people",
+                    "timeMs": 46000,
+                    "label": "RED CHASE - Robot",
+                    "comment": ""
+                },
+                {
+                    "timeMs": 58000,
+                    "label": "Full light",
+                    "comment": ""
+                },
+                {
+                    "timeMs": 68000,
+                    "label": "BLACKOUT + HUMO + heads moving",
+                    "comment": "City environment"
+                },
+                {
+                    "timeMs": 86000,
+                    "label": "Heads + GREEN tones + NEON ON",
+                    "comment": "Forest environment"
+                },
+                {
+                    "timeMs": 115000,
+                    "label": "Soft BLUE + NEON",
+                    "comment": "Mountain river ambience"
+                },
+                {
+                    "timeMs": 305000,
+                    "label": "BLACKOUT TOTAL - APAGAR NEON",
                     "comment": ""
                 }
             ]
         },
         {
             "id": "song_16",
-            "title": "16. Azafatas",
-            "artist": "Dancing Queens + Ositos",
-            "durationMs": 195000,
+            "title": "16. Blue Danube",
+            "artist": "Grupo 2",
+            "durationMs": 208000,
             "flags": [
-                "Next song MICs ON"
+                "NEON ON"
             ],
-            "notes": "Just fun light",
+            "notes": "!!Encender NEON al encender la luz",
             "cues": [
                 {
                     "timeMs": 0,
-                    "label": "CHASE and fast lights, colors",
-                    "comment": "Full energy"
+                    "label": "Fade in colorful light + NEON ON",
+                    "comment": "15 sec fade in"
+                },
+                {
+                    "timeMs": 15000,
+                    "label": "Full light + NEON + CHASE + heads",
+                    "comment": "Everything - full energy"
                 }
             ]
         },
         {
             "id": "song_17",
-            "title": "17. dialogo en vivo",
-            "artist": "",
-            "durationMs": 182000,
+            "title": "17. Madre Tierra",
+            "artist": "Grupo 1",
+            "durationMs": 186000,
             "flags": [
-                "!!MICROPHONES",
-                "!!LIVE DIALOGUE",
-                "!!SKIP AT END"
+                "NEON ON"
             ],
-            "notes": "!!SKIP after calling bear 3 times",
+            "notes": "",
             "cues": [
                 {
                     "timeMs": 0,
-                    "label": "A bit of CHASE",
-                    "comment": "Cheerful light"
+                    "label": "Happy YELLOW CHASE + NEON",
+                    "comment": "Full song"
                 }
             ]
         },
         {
             "id": "song_18",
-            "title": "18. All I want for christmas",
-            "artist": "Everyone",
-            "durationMs": 220000,
-            "flags": [],
-            "notes": "",
-            "cues": [
-                {
-                    "timeMs": 0,
-                    "label": "CHASE and fast lights, colors",
-                    "comment": "Full energy"
-                }
-            ]
-        },
-        {
-            "id": "song_19",
-            "title": "19. Moraleja",
-            "artist": "Nacho",
-            "durationMs": 132000,
+            "title": "18. Narrador y Mix Final",
+            "artist": "Todos Adultos",
+            "durationMs": 330000,
             "flags": [
-                "!!BLACKOUT",
-                "UV Lights"
+                "NEON ON"
             ],
             "notes": "",
             "cues": [
                 {
                     "timeMs": 0,
-                    "label": "BLACKOUT",
-                    "comment": "There will be lights in costumes"
+                    "label": "Full light",
+                    "comment": ""
+                },
+                {
+                    "timeMs": 8000,
+                    "label": "BLACKOUT + heads moving",
+                    "comment": "Narrador speaks - some heads so stage not empty"
+                },
+                {
+                    "timeMs": 40000,
+                    "label": "Happy CHASE + STROBO + NEON ON",
+                    "comment": "Full energy - baile"
+                }
+            ]
+        },
+        {
+            "id": "song_19",
+            "title": "19. Stop Fiesta",
+            "artist": "Compi + Nena",
+            "durationMs": 109000,
+            "flags": [
+                "NEON ON"
+            ],
+            "notes": "",
+            "cues": [
+                {
+                    "timeMs": 0,
+                    "label": "Happy CHASE",
+                    "comment": "Felicidad"
+                },
+                {
+                    "timeMs": 26000,
+                    "label": "BLACKOUT + RED + HUMO + STROBO",
+                    "comment": ""
+                },
+                {
+                    "timeMs": 28000,
+                    "label": "SPOT-2 center - robots",
+                    "comment": "Mysterious light"
                 }
             ]
         },
         {
             "id": "song_20",
-            "title": "20. Presentacion de los artistas",
-            "artist": "Everyone",
-            "durationMs": 220000,
-            "flags": [],
-            "notes": "!!Prepare to play All I want for Christmas",
+            "title": "20. Presentacion Nombres",
+            "artist": "Todos",
+            "durationMs": 237000,
+            "flags": [
+                "NEON ON"
+            ],
+            "notes": "!!Full light throughout - artists presentation",
             "cues": [
                 {
                     "timeMs": 0,
-                    "label": "BLACKOUT",
-                    "comment": "There will be lights in costumes"
-                },
-                {
-                    "timeMs": 131000,
-                    "label": "Stop music, people will talk",
-                    "comment": "After they say Merry Christmas, play 'All I want for Christmas' again"
+                    "label": "NEON ON + Full light",
+                    "comment": "Artists presentation"
                 }
             ]
         }
