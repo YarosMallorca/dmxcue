@@ -1,7 +1,7 @@
 name: dmxcue
 description: "A lighting teleprompter I built in a morning for a performance I had on the same day."
 publish_to: 'none'
-version: 0.1.0+1
+version: 0.2.0+2
 
 environment:
   sdk: ^3.10.4
