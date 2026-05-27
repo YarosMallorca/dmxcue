@@ -55,7 +55,7 @@
             "cues": [
                 {
                     "timeMs": 0,
-                    "label": "BLACKOUT - Solo SPOT-1",
+                    "label": "BLACKOUT - Solo SPOT-RIGHT",
                     "comment": "Spotlight on sofa with niña"
                 },
                 {
@@ -65,12 +65,12 @@
                 },
                 {
                     "timeMs": 53000,
-                    "label": "Fade to SPOT-3 only",
+                    "label": "Fade to SPOT-LEFT only",
                     "comment": "Focus on window with niña"
                 },
                 {
                     "timeMs": 65000,
-                    "label": "Fade SPOT-3 out",
+                    "label": "Fade SPOT-LEFT out",
                     "comment": ""
                 },
                 {
@@ -103,7 +103,7 @@
                 },
                 {
                     "timeMs": 34000,
-                    "label": "SPOT-2 center + RED STROBO",
+                    "label": "SPOT-CENTER + RED STROBO",
                     "comment": ""
                 },
                 {
@@ -222,7 +222,7 @@
             "id": "song_07",
             "title": "07. Happy Birthday (Low Low)",
             "artist": "Grupo 2",
-            "durationMs": 243000,
+            "durationMs": 272000,
             "flags": [
                 "NEON ON",
                 "!!APAGAR NEON al final"
@@ -293,27 +293,27 @@
                 },
                 {
                     "timeMs": 3000,
-                    "label": "CHASE SPOT-2 - Robot",
+                    "label": "CHASE SPOT-CENTER - Robot",
                     "comment": ""
                 },
                 {
                     "timeMs": 9000,
-                    "label": "SPOT-2 center - niña",
+                    "label": "SPOT-CENTER - niña",
                     "comment": ""
                 },
                 {
                     "timeMs": 17000,
-                    "label": "CHASE SPOT-2 - Robot",
+                    "label": "CHASE, SPOT-CENTER - Robot",
                     "comment": ""
                 },
                 {
                     "timeMs": 26000,
-                    "label": "SPOT-2 center - niña",
+                    "label": "SPOT-CENTER - niña",
                     "comment": ""
                 },
                 {
                     "timeMs": 34000,
-                    "label": "CHASE SPOT-2 - Robot",
+                    "label": "CHASE SPOT-CENTER - Robot",
                     "comment": ""
                 },
                 {
@@ -367,7 +367,7 @@
                 {
                     "timeMs": 81000,
                     "label": "BLUE light + HUMO + NEON",
-                    "comment": "Full dance - SPOT-3 on Earth at end"
+                    "comment": "Full dance - SPOT-CENTER on Earth at end"
                 }
             ]
         },
@@ -384,7 +384,7 @@
             "cues": [
                 {
                     "timeMs": 0,
-                    "label": "Dim light - SPOT-2 on niñas",
+                    "label": "Dim light - SPOT-CENTER on niñas",
                     "comment": ""
                 },
                 {
@@ -394,7 +394,7 @@
                 },
                 {
                     "timeMs": 20000,
-                    "label": "SPOT-2 on niñas",
+                    "label": "SPOT-CENTER on niñas",
                     "comment": ""
                 },
                 {
@@ -431,7 +431,7 @@
                 },
                 {
                     "timeMs": 10000,
-                    "label": "SPOT-2 center - Roman & niña",
+                    "label": "SPOT-CENTER - Roman & niña",
                     "comment": ""
                 },
                 {
@@ -454,7 +454,7 @@
             "cues": [
                 {
                     "timeMs": 0,
-                    "label": "SPOT-2 center - focus on niñas",
+                    "label": "SPOT-CENTER - focus on niñas",
                     "comment": ""
                 },
                 {
@@ -483,7 +483,7 @@
             "cues": [
                 {
                     "timeMs": 0,
-                    "label": "SPOT-2 center - focus on niños",
+                    "label": "SPOT-CENTER - focus on niños",
                     "comment": ""
                 },
                 {
@@ -493,7 +493,7 @@
                 },
                 {
                     "timeMs": 40000,
-                    "label": "SPOT-2 center",
+                    "label": "SPOT-CENTER",
                     "comment": ""
                 },
                 {
@@ -503,7 +503,7 @@
                 },
                 {
                     "timeMs": 59000,
-                    "label": "SPOT-2 center",
+                    "label": "`SPOT-CENTER`",
                     "comment": ""
                 },
                 {
@@ -682,7 +682,7 @@
                 },
                 {
                     "timeMs": 28000,
-                    "label": "SPOT-2 center - robots",
+                    "label": "SPOT-CENTER - robots",
                     "comment": "Mysterious light"
                 }
             ]
