@@ -78,14 +78,16 @@ class PlaybackNotifier extends Notifier<PlaybackState> {
   }
 
   void jumpTo(int timeMs) {
-    _stopwatch ??= Stopwatch();
-    _stopwatch!
-      ..reset()
-      ..start();
-
     _offsetMs = timeMs;
 
-    state = PlaybackState(isPlaying: true, elapsedMs: timeMs);
+    if (state.isPlaying) {
+      _stopwatch ??= Stopwatch();
+      _stopwatch!
+        ..reset()
+        ..start();
+    }
+
+    state = PlaybackState(isPlaying: state.isPlaying, elapsedMs: timeMs);
   }
 }
 

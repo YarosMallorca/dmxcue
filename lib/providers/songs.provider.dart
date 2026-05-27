@@ -14,6 +14,15 @@ final currentSongProvider = Provider<Song>((ref) {
   return songs[index];
 });
 
+final nextSongProvider = Provider<Song?>((ref) {
+  final songs = ref.watch(songsProvider);
+  final index = ref.watch(songSelectionProvider).index;
+  if (index + 1 < songs.length) {
+    return songs[index + 1];
+  }
+  return null;
+});
+
 final songProgressProvider = Provider<double>((ref) {
   final songs = ref.watch(songsProvider);
   final index = ref.watch(songSelectionProvider).index;

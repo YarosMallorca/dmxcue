@@ -3,6 +3,87 @@ import 'package:dmxcue/models/cue.dart';
 import 'package:dmxcue/utils/show_helpers.dart';
 import 'package:flutter/material.dart';
 
+class NextSongFirstCueDisplay extends StatelessWidget {
+  final String songTitle;
+  final Cue firstCue;
+
+  const NextSongFirstCueDisplay({
+    super.key,
+    required this.songTitle,
+    required this.firstCue,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      decoration: BoxDecoration(
+        borderRadius: BorderRadius.circular(12),
+        color: Colors.teal.withAlpha(25),
+        border: Border.all(color: Colors.teal.withAlpha(70), width: 1),
+      ),
+      padding: const EdgeInsets.all(16),
+      child: Column(
+        children: [
+          Row(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Container(
+                padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 3),
+                decoration: BoxDecoration(
+                  color: Colors.teal.shade800,
+                  borderRadius: BorderRadius.circular(6),
+                ),
+                child: const Text(
+                  'NEXT SONG',
+                  style: TextStyle(
+                    color: Colors.white,
+                    fontSize: 12,
+                    fontWeight: FontWeight.bold,
+                    letterSpacing: 1.2,
+                  ),
+                ),
+              ),
+              const SizedBox(width: 8),
+              Text(
+                songTitle,
+                style: const TextStyle(color: Colors.white54, fontSize: 14),
+                overflow: TextOverflow.ellipsis,
+              ),
+            ],
+          ),
+          const SizedBox(height: 4),
+          Text(
+            '@ ${formatTime(firstCue.timeMs)}',
+            style: const TextStyle(color: Colors.white38, fontSize: 18),
+          ),
+          const SizedBox(height: 4),
+          ColoredText(
+            firstCue.label,
+            baseStyle: const TextStyle(
+              fontSize: 24,
+              fontWeight: FontWeight.w600,
+              color: Colors.white60,
+            ),
+            textAlign: TextAlign.center,
+          ),
+          if (firstCue.comment != null && firstCue.comment!.isNotEmpty) ...[
+            const SizedBox(height: 6),
+            ColoredText(
+              firstCue.comment!,
+              baseStyle: const TextStyle(
+                color: Colors.white38,
+                fontSize: 20,
+                fontStyle: FontStyle.italic,
+              ),
+              textAlign: TextAlign.center,
+            ),
+          ],
+        ],
+      ),
+    );
+  }
+}
+
 class NextCueDisplay extends StatefulWidget {
   final Cue? cue;
   final Cue? currentCue;

@@ -11,6 +11,7 @@ import 'package:dmxcue/providers/cue.provider.dart';
 import 'package:dmxcue/providers/playback.provider.dart';
 import 'package:dmxcue/providers/show.provider.dart';
 import 'package:dmxcue/providers/songs.provider.dart';
+import 'package:dmxcue/models/song.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
@@ -65,6 +66,8 @@ class _CueScreenContent extends HookConsumerWidget {
               const Expanded(child: _CurrentCueSection()),
               const SizedBox(height: 12),
               const _NextCueSection(),
+              const SizedBox(height: 8),
+              const _NextSongCueSection(),
               const SizedBox(height: 16),
               SongFlags(flags: song.flags),
               const SizedBox(height: 32),
@@ -126,6 +129,23 @@ class _NextCueSection extends HookConsumerWidget {
       cue: nextCue,
       currentCue: currentCue,
       currentMs: elapsedMs,
+    );
+  }
+}
+
+class _NextSongCueSection extends ConsumerWidget {
+  const _NextSongCueSection();
+
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
+    if (ref.watch(nextCueProvider) != null) return const SizedBox.shrink();
+    final Song? nextSong = ref.watch(nextSongProvider);
+    if (nextSong == null || nextSong.cues.isEmpty) {
+      return const SizedBox.shrink();
+    }
+    return NextSongFirstCueDisplay(
+      songTitle: nextSong.title,
+      firstCue: nextSong.cues.first,
     );
   }
 }
